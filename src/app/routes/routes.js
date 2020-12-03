@@ -27,14 +27,14 @@ export default class App extends Component {
         <StatusBar backgroundColor={colors.secondaryBlue} barStyle={'light-content'} />
         <Router>
           <Stack hideNavBar key="root">
-            {/* <Scene
+            <Scene
               hideNavBar
               key="SplashScreen"
               back={false}
               component={SplashScreen}
               title="SplashScreen"
               initial={true}
-            /> */}
+            />
             <Scene
               hideNavBar
               key="Login"
